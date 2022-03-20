@@ -49,14 +49,14 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/wijohnst/thriving-park-documentation',
-            label: 'GitHub',
+            label: 'Github - Docs Repo',
             position: 'right',
           },
         ],
