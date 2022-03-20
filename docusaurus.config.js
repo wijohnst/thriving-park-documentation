@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ThrivingPark',
+  tagline: 'Always on the Move',
+  url: 'https://www.thrivingpark.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/logo.svg',
+  organizationName: 'ThrivingPark', 
+  projectName: 'ThrivingPark.com', 
 
   presets: [
     [
@@ -23,14 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/wijohnst/thriving-park-documentation',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/wijohnst/thriving-park-documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,22 +41,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Thriving Park',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Thriving Park Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/wijohnst/thriving-park-documentation',
+            label: 'Github - Docs Repo',
             position: 'right',
           },
         ],
@@ -79,34 +77,30 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Join our Slack',
+                href: 'https://join.slack.com/t/thrivingparkcom/shared_invite/zt-15o1eym03-gLeAh5_LxCKt8dLTm0_q~g',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Repositories',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub - FE Repo',
+                href: 'https://github.com/wijohnst/thriving-park',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+							{
+								label: 'Github - BE Repo',
+								href: 'https://github.com/wijohnst/tp-express-backend',
+							},
+							{
+								label: 'Github - Doc Site Repo',
+								href: 'https://github.com/wijohnst/thriving-park-documentation',
+							}
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ThrivingPark.com Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
