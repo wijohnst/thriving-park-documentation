@@ -5,6 +5,8 @@
  */
 
 /* You can override the default Infima variables here. */
+html,
+body,
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -19,6 +21,11 @@
 	--tp-secondary-blue: #2B2D42;
 	--tp-bright-green: #ABFF4F;
 	--tp-bright-purple: #7B61FF;
+
+	height: 100%;
+	width: 100%;
+
+	box-sizing: border-box;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -41,4 +48,11 @@
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sign-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
