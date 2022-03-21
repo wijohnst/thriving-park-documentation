@@ -1,0 +1,27 @@
+.park-sign-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--tp-primary-blue);
+	padding: 2rem;
+	max-width: 75%;
+	text-align: center;
+
+	min-width: 50%;
+	
+	border: solid white;
+	border-radius: 10px;
+	margin: 2rem 0 2rem 0;
+}
+
+.sign-h2 {
+	font-size: 3rem;
+}
+
+.sign-h1{
+	font-size: 5rem;
+}
+
+.sign-h3 {
+	font-size: 1.75rem;
+}
