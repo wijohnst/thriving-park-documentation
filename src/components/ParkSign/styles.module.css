@@ -3,7 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	background-color: var(--tp-primary-blue);
-	padding: 2rem;
+	padding: 1rem 2rem 0rem 2rem;
 	max-width: 75%;
 	text-align: center;
 
@@ -20,8 +20,16 @@
 
 .sign-h1{
 	font-size: 5rem;
+	margin-top: -1rem;
 }
 
-.sign-h3 {
+.columbus-heading {
 	font-size: 1.75rem;
+	margin-top: -1rem;
+}
+
+.estd-heading {
+	font-size: 1.25rem;
+	font-weight: 400;
+	font-style: italic;
 }
