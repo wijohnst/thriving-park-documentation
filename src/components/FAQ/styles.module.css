@@ -1,22 +1,5 @@
 .faq-wrapper {
     font-family: Helvetica;
-    padding: 0.75rem 1.5rem 2.25rem;
-
-
-    --dash-color: var(--tp-bright-purple);    
-    --dash-length: 0.8rem;
-    
-    --dash-spacing-end-x: 1.185rem;
-    --dash-x: repeating-linear-gradient(to right, var(--dash-color) 0, var(--dash-color) var(--dash-length), transparent calc(var(--dash-length) + 1px), transparent);
-    
-    --dash-spacing-end-y: 1.2rem;
-    --dash-y: repeating-linear-gradient(to bottom, var(--dash-color) 0, var(--dash-color) var(--dash-length), transparent calc(var(--dash-length) + 1px), transparent);
-
-    background-image: var(--dash-x), var(--dash-y), var(--dash-x), var(--dash-y);
-    background-size: var(--dash-spacing-end-x) 1px, 1px var(--dash-spacing-end-y), var(--dash-spacing-end-x) 1px, 1px var(--dash-spacing-end-y);
-    background-position: 0 0, 100% 0, 0 100%, 0 0;
-    background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
-    border-radius: var(--ifm-global-radius);
 }
 
 .faq-question {
