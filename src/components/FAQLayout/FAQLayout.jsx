@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 const FAQLayout = ({ children }) => {
 	return (
 		<div className={styles[`faq-layout`]}>
-            {children}
+            		{children}
 		</div>
 	)
 }
