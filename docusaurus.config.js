@@ -49,7 +49,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'Project Overview/what-is-thriving-park',
             position: 'left',
             label: 'Docs',
           },
