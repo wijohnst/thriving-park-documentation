@@ -7,9 +7,9 @@ A __*Neighborhood Operating System*__ (`nOS`) is any web application that includ
 
 ## How do you decide what to build?
 
-That's the easy part: __*we don't!*__
+### That's the easy part: __*we don't!*__
 
-We should never and will never prescribe our view of what would enhance the lives of Driving Parks residents and families. Only the folks living and working in the community can do that. The feature development lifecycle for ThrivingPark follows 4 steps designed to maximize community input and engagement:
+We should never (and will never) prescribe our view of what would enhance the lives of Driving Parks residents and families. Only the folks living and working in the community can do that. The feature development lifecycle for ThrivingPark follows 4 steps designed to maximize community input and engagement:
 
 1. __*Ask the Community*__ - People are smart. They will tell you what they want and need. You just have to ask!
 2. __*Create designs for features based on what the community wants*__- Don't assume that you've got it right the first time. Ask again!
