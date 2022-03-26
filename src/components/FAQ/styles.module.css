@@ -1,0 +1,21 @@
+:root {
+    --tp-faq-line-height: 1.25em;
+}
+
+.faq-wrapper {
+    font-family: Helvetica;
+    letter-spacing: 0.25rem;
+}
+
+.faq-question {
+    color: var(--tp-bright-purple);
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: var(--tp-faq-line-height);
+}
+
+.faq-answer {
+    font-size: 2rem;
+    margin-top: 2rem;
+    line-height: var(--tp-faq-line-height);
+}
