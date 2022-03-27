@@ -10,7 +10,7 @@ const config = {
   tagline: 'Always on the Move',
   url: 'https://www.thrivingpark.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'ThrivingPark', 
