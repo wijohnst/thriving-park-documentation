@@ -10,7 +10,7 @@ const config = {
   tagline: 'Always on the Move',
   url: 'https://www.thrivingpark.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
   organizationName: 'ThrivingPark', 
@@ -49,7 +49,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'Project Overview/what-is-thriving-park',
             position: 'left',
             label: 'Docs',
           },
@@ -69,7 +69,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs',
+                to: 'docs/Project%20Overview/what-is-thriving-park',
               },
             ],
           },
