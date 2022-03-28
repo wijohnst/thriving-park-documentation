@@ -1,9 +1,7 @@
 import React from 'react'
-
 import styles from './styles.module.css'
 
 export const ParkSign = () => {
-
 	return (
 		<div className={styles[`park-sign-wrapper`]}>
 			<div className={styles.signContent}>
