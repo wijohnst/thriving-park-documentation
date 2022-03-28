@@ -1,0 +1,24 @@
+.table-wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-gap: .5rem;
+    font-family: Helvetica;
+    text-align: center;
+    border: .25rem solid white;
+    background-color: white;
+}
+
+.table-header-item,
+.table-body-item {
+    padding: .75rem;
+}
+
+.table-header-item {
+    background-color: var(--tp-primary-blue);
+    font-weight: bold;
+}
+
+.table-body-item {
+    background-color: black;
+}
