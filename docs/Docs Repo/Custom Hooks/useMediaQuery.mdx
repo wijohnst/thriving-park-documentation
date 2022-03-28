@@ -4,3 +4,12 @@ title: useMediaQuery()
 ---
 
 ## Custom hook used for matching a screen-size query with the current window
+
+### Usage
+
+```js
+import { useMediaQuery } from 'hooks/useMediaQuery';
+import { BreakpointsEnum } from 'utils/constants';
+
+const isMobile = useMediaQuery(BreakpointsEnum.MOBILE); 
+```

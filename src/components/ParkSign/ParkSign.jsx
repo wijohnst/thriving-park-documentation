@@ -1,12 +1,9 @@
 import React from 'react'
 
 import styles from './styles.module.css'
-import { useMediaQuery } from '../../hooks/useMediaQuery'
-import { BreakpointsEnum } from '../../utils/constants'
 
 export const ParkSign = () => {
 
-	console.log(useMediaQuery(BreakpointsEnum.DESKTOP)); 
 	return (
 		<div className={styles[`park-sign-wrapper`]}>
 			<div className={styles.signContent}>
