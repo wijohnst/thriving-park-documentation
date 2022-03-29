@@ -1,0 +1,30 @@
+.table-wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    font-family: Helvetica;
+    text-align: center;
+
+    --border-thickness: .25rem;
+}
+
+.table-header-item,
+.table-body-item {
+    padding: .75rem;
+    border: var(--border-thickness) solid white;
+}
+
+.table-header-item {
+    background-color: var(--tp-primary-blue);
+    font-weight: bold;
+}
+
+.table-leftover-space {
+    width: 0;
+    height: 0;
+
+    /* CSS Triangle Pointing Up Left */
+    border: calc(var(--border-thickness) / 2) solid white;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
