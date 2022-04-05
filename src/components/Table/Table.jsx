@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-const Table = ({ header = [], body = [] }) => {
+const Table = ({ header = ['Test', "2"], body = [1] }) => {
 
     const TableLeftoverSpace = () => {
         const hasLeftoverSpace = body.length % header.length !== 0;
