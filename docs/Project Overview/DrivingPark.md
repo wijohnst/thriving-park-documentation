@@ -1,6 +1,7 @@
 ---
 id: driving-park
 title: "Driving Park"
+sidebar_position: 2
 ---
 
 ![Driving Park Map](../../static/img/DP_Map.svg)
