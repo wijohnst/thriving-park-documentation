@@ -1,7 +1,9 @@
 ---
 id: what-is-thriving-park
 title: "What is Thriving Park?"
+sidebar_position: 1
 ---
+
 ThrivingPark is the official [neighborhood operating system](NeighborhoodOperatingSystem.md) for [Driving Park](DrivingPark.md), an historic, diverse, and vibrant community on the south-east side of Columbus, Ohio.
 
 The technical goal for the application is to build web-based tools to positivily impact the neighborhood and increase the social and environmental well-being of our neighbors.
