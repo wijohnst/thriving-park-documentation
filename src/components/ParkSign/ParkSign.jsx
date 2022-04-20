@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './styles.module.css';
+import React from 'react'
+import styles from './styles.module.css'
 
 export const ParkSign = () => {
   return (
@@ -12,7 +12,7 @@ export const ParkSign = () => {
         </span>
       </h1>
     </div>
-  );
-};
+  )
+}
 
-export default ParkSign;
+export default ParkSign
