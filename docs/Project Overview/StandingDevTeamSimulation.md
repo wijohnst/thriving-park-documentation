@@ -15,7 +15,7 @@ sidebar_position: 4
 - Unit Testing
 - Release management
 - CI/CD
-- Git-as-a-group
+- Git / Github
 - Documentation
 - Atomic Design
 - Test-Driven Development
