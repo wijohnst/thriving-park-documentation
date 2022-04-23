@@ -20,11 +20,10 @@
 }
 
 .sign-h1-large {
-  display: inline-block;
   font-size: clamp(2.5rem, 1.43rem + 4.76vw, 5rem);
 }
 
 .sign-h1-small {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: clamp(1rem, 0.68rem + 1.43vw, 1.75rem);
 }
